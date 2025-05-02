@@ -26,11 +26,12 @@ This is a Streamlit-based web application that uses a Convolutional Neural Netwo
 ---
 
 ## 📁 Project Structure
-.
-├── index.py # Streamlit app
-├── Dockerfile # Docker container setup
-├── requirements.txt # Python dependencies
-└── models/
-└── densenet_model_v3.keras # Pre-trained CNN model (user-provided)
+pneumonia-detector/
+├── index.py                     # Main Streamlit app for prediction & chatbot
+├── Dockerfile                   # Docker configuration to containerize the app
+├── requirements.txt             # Python dependencies for app and models
+├── models/
+│   └── densenet_model_v3.keras  # Pre-trained CNN model (ensure this file is present)
+├── README.md                    # Project documentation (you will add this)
 
 
