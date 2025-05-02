@@ -34,4 +34,43 @@ pneumonia-detector/
 │   └── densenet_model_v3.keras  # Pre-trained CNN model (ensure this file is present)
 ├── README.md                    # Project documentation (you will add this)
 
+▶️ Run the container
+bash
+Copy code
+docker run -p 8501:8501 pneumonia-detector
+Then open your browser and go to:
+http://localhost:8501
+
+🔍 Prerequisites
+Python 3.8+
+
+A trained model file at: models/densenet_model_v3.keras (must be provided)
+
+Docker (optional, for containerized deployment)
+
+🔄 Local Development
+If not using Docker:
+
+bash
+Copy code
+pip install -r requirements.txt
+streamlit run index.py
+📦 Deployment
+You can deploy the containerized version using:
+
+Render
+
+Hugging Face Spaces (with Gradio support)
+
+AWS/GCP/Azure (for cloud hosting)
+
+✍️ License
+This project is under the MIT License.
+For educational and non-commercial use.
+
+🙋‍♀️ Author
+Pooja – DockerHub: poojaa796
+
+
+
 
