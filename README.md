@@ -26,4 +26,11 @@ This is a Streamlit-based web application that uses a Convolutional Neural Netwo
 ---
 
 ## 📁 Project Structure
+.
+├── index.py # Streamlit app
+├── Dockerfile # Docker container setup
+├── requirements.txt # Python dependencies
+└── models/
+└── densenet_model_v3.keras # Pre-trained CNN model (user-provided)
+
 
